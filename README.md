@@ -8,9 +8,7 @@ Optimistically apply actions that can be later commited or reverted.
 
 # About this fork
 
-I don't like the memory intensive method that redux-optimist uses, nor do I like the fact that redux-optimistic-ui requires me to wrap my getState.
-
-I thought I'd write something in between.
+I would like to make fast moving changes to this repository in future for person projects that may very well break the current api.
 
 ## Installation
 

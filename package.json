@@ -4,9 +4,6 @@
   "description": "Optimistically apply actions that can be later commited or reverted.",
   "keywords": [],
   "main": "lib/index.js",
-  "publishConfig": {
-    "registry": "http://registry.yumochefs.com"
-  },
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.18.0",
