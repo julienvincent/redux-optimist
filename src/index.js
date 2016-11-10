@@ -1,8 +1,6 @@
-'use strict';
-
-var BEGIN = 'BEGIN';
-var COMMIT = 'COMMIT';
-var REVERT = 'REVERT';
+var BEGIN = '@@optimistic-redux/BEGIN';
+var COMMIT = '@@optimistic-redux/COMMIT';
+var REVERT = '@@optimistic-redux/REVERT';
 // Array({transactionID: string or null, beforeState: {object}, action: {object}}
 var INITIAL_OPTIMIST = [];
 

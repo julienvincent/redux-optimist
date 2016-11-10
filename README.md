@@ -6,6 +6,12 @@ Optimistically apply actions that can be later commited or reverted.
 [![Dependency Status](https://img.shields.io/david/ForbesLindesay/redux-optimist.svg)](https://david-dm.org/ForbesLindesay/redux-optimist)
 [![NPM version](https://img.shields.io/npm/v/redux-optimist.svg)](https://www.npmjs.org/package/redux-optimist)
 
+# About this fork
+
+I don't like the memory intensive method that redux-optimist uses, nor do I like the fact that redux-optimistic-ui requires me to wrap my getState.
+
+I thought I'd write something in between.
+
 ## Installation
 
     npm install redux-optimist
